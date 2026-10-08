@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'A Shekari';
+    src: url('AShekari.eot');
+    src: url('AShekari.eot?#iefix') format('embedded-opentype'),
+        url('AShekari.woff2') format('woff2'),
+        url('AShekari.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

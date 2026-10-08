@@ -1,0 +1,177 @@
+.cover {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+    display: none;
+}
+
+.cover .modal {
+
+    width: 560px;
+    min-height: 460px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%) scale(.75);
+
+    opacity: 0;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #7C5136,
+        #A67C52,
+        #D8C2A7
+    );
+
+    box-shadow:  0 20px 60px rgba(0,0,0,.35), inset 0 2px 8px rgba(255,255,255,.15);
+
+    text-align: center;
+
+    padding: 35px;
+
+}
+
+.animate{
+
+    opacity: 1 !important;
+    transform: translate(-50%, -50%)
+    scale(1) !important;
+
+    transition:
+    all .7s ease;
+
+}
+
+.close{
+
+    width:40px;
+    height:40px;
+
+    position:absolute;
+
+    right:-12px;
+    top:-12px;
+
+    border-radius:50%;
+
+    background:#C8A88D;
+
+    color:white;
+
+    font-size:28px;
+
+    line-height:38px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+}
+
+.close:hover{
+
+    transform:rotate(180deg);
+
+    background:#3D2A1D;
+
+}
+
+
+.img{
+
+    width:400px;
+    display:block;
+
+    margin:0 auto 25px;
+
+    transition:.5s;
+
+}
+
+.img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.p{
+
+    font-family:"paeez";
+
+    font-size:34px;
+
+    color:#301E10;
+
+    line-height:55px;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+}
+
+.desc{
+
+    
+    font-family:"paeez";
+    color:#F8F3ED;
+
+    font-size:28px;
+
+    line-height:35px;
+
+    margin-top:15px;
+
+}
+
+.shop{
+
+    
+    font-family:"paeez";
+    width:220px;
+
+    height:55px;
+
+    margin:35px auto 0;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#3D2A1D;
+
+    color:white;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.shop:hover{
+
+    background:#F3E3CF;
+
+    color:#3D2A1D;
+
+    transform:translateY(-5px);
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.25);
+
+}
+
+

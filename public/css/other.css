@@ -1,0 +1,218 @@
+.productsss {
+    width: 80%;
+    margin: 90px auto;
+}
+
+.productsss .mySwiperProductsss {
+    padding: 15px 15px 10px;
+    border-radius: 22px;
+}
+
+.productsss .swiper-slide {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.productss-card {
+
+    width: 100%;
+
+    height: 400px;
+
+    background: rgba(255, 255, 255, 0.212);
+
+    font-family: "AShams";
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+    transition: 0.4s;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .1);
+
+}
+
+.productss-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .18);
+
+}
+
+.productss-image {
+
+    width: 100%;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.productss-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.5s;
+
+    border-radius: 22px;
+}
+
+.productss-card:hover .productss-image img {
+
+    transform: scale(1.08);
+
+}
+
+.productss-icons {
+
+    position: absolute;
+
+    bottom: 120px;
+
+    right: 81%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+
+    transition: .4s;
+
+}
+
+.productss-card:hover .productss-icons {
+    bottom: 15px;
+
+}
+
+.productss-icons span {
+
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 30%;
+
+    background: rgba(119, 117, 117, 0.466);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+.productss-icons span:hover {
+
+    background: #c7906e;
+
+    color: white;
+
+}
+
+.productss-content {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    padding: 20px;
+
+}
+
+.productss-content h3 {
+
+    font-size: 24px;
+
+    line-height: 38px;
+
+    font-weight: bold;
+
+    text-align: right;
+
+    color: #3D2A1D;
+
+}
+
+.productss-stars {
+
+    text-align: right;
+
+    color: #FDBA12;
+
+    font-size: 18px;
+
+    margin-top: 8px;
+
+}
+
+
+.productss-price {
+
+    text-align: right;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #7C5136;
+
+}
+
+.productss-btn {
+
+    width: 140px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #7C5136;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    transition: .3s;
+
+}
+
+.productss-btn:hover {
+
+    background: #C8A88D;
+
+    color: #3D2A1D;
+
+    font-weight: bold;
+
+}

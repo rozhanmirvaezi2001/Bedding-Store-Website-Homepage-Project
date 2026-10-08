@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'A Shams';
+    src: url('AShams.eot');
+    src: url('AShams.eot?#iefix') format('embedded-opentype'),
+        url('AShams.woff2') format('woff2'),
+        url('AShams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

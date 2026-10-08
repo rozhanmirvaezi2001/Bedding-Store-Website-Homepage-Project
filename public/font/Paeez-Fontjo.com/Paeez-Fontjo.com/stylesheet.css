@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Paeez';
+    src: url('PaeezRegular.eot');
+    src: url('PaeezRegular.eot?#iefix') format('embedded-opentype'),
+        url('PaeezRegular.woff2') format('woff2'),
+        url('PaeezRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

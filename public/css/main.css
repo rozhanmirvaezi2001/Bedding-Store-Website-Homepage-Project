@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "public/css/toshak.css";
+@import "public/css/slider.css"; 
+@import "public/css/cover.css";
+@import "public/css/top.css";
+@import "public/css/box.css";
+@import "public/css/other.css";
+@import "public/css/scroll.css";
+
+@font-face {
+    font-family:"paeez";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/font/Paeez-Fontjo.com/Paeez-Fontjo.com/Paeez.ttf) format("ttf");
+    src: url(/font/Paeez-Fontjo.com/Paeez-Fontjo.com/PaeezRegular.woff) format("woff");
+    src: url(/font/Paeez-Fontjo.com/Paeez-Fontjo.com/PaeezRegular.woff2) format("woff2");
+    src: url(/font/Paeez-Fontjo.com/Paeez-Fontjo.com/PaeezRegular.eot) format("eot");
+}
+
+   @font-face {
+    font-family:"AShams";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/font/A-Shams/Shams/AShams.ttf) format("ttf");
+    src: url(/font/A-Shams/Shams/AShams.woff) format("woff");
+    src: url(/font/A-Shams/Shams/AShams.woff2) format("woff2");
+    src: url(/font/A-Shams/Shams/AShams.eot) format("eot");
+}
+
+   @font-face {
+    font-family:"Amsterdam";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/font/Amsterdam-Two-Font/Amsterdam-two-ttf.ttf) format("ttf");
+    src: url(/font/Amsterdam-Two-Font/Amsterdam-Two_ttf.woff) format("woff");
+    src: url(/font/Amsterdam-Two-Font/Amsterdam-Two_ttf.woff2) format("woff2");
+    src: url(/font/Amsterdam-Two-Font/Amsterdam-Two_ttf.eot) format("eot");
+}

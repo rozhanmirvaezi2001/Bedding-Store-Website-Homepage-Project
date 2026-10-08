@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Amsterdam Two_ttf';
+    src: url('Amsterdam-Two_ttf.eot');
+    src: url('Amsterdam-Two_ttf.eot?#iefix') format('embedded-opentype'),
+        url('Amsterdam-Two_ttf.woff2') format('woff2'),
+        url('Amsterdam-Two_ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
